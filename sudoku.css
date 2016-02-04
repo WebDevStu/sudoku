@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: normal normal 1em/1.4em Arial, Serif;
+    color: #333;
+}
+nav{
+    margin: 20px auto;
+    width: 504px;
+}
+nav a,
+nav a:visited{
+    display: inline-block;
+    padding: 0 8px;
+    color: #333;
+    line-height: 24px;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px #ccc solid;
+    background: #f1f1f1;
+}
+nav a:hover{
+    background: #fff;
+}
+nav span{
+    float: right;
+    line-height: 24px;
+}
+section{
+    margin: 20px auto;
+    padding: 2px;
+    width: 504px;
+    height: 504px;
+    border: 1px #333 solid;
+    border-radius: 3px;
+}
+input{
+    float: left;
+    margin: 2px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    text-align: center;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+}
+input:focus{
+    outline: none;
+    border-color: green;
+}
